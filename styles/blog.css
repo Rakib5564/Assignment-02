@@ -1,0 +1,303 @@
+
+.qicksands-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .marquee{
+    font-size: 4rem;
+    font-weight: 800;
+    color:rgba(245, 137, 97, 0.658)
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:auto;
+    padding-left: 30px;
+    
+    
+  }
+  .btn-01{
+    border:1px, solid, whitesmoke;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color:#FFFFFF;
+    background-color: orange;
+  }
+  .humberger{
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+    
+    
+  }
+  .banner{
+    display: flex;
+    justify-content:space-around;
+    max-width: auto;
+    
+    
+    
+  }
+  .btn-02{
+    border:1px, solid, whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color:#FFFFFF;
+    background-color: black;
+  }
+  .school{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    max-width:auto;
+    
+    
+
+
+  }
+  .curriculum{
+    text-align: center;
+    width: auto;
+    font-size: 2.7rem;
+    font-weight: bold;
+
+  }
+  .kinder{
+    width:auto ;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#91e2d8d2, white);
+  }
+  .elementary{
+    width:auto;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#e993566c , rgba(241, 237, 237, 0.205));
+  }
+  .middle{
+    width: auto;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#e2cdf5e5, rgba(255, 255, 255, 0.568));
+  }
+  .arrow-icon{
+    
+    text-align: center;
+    margin-top: 15px;
+  }
+  .all-story{
+    display: flex;
+   gap: 50px;
+   justify-content: space-evenly;
+  }
+  .story-collage{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap:20px;
+    width: auto;
+    
+    
+  }
+  .story-01{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    max-width:435px ;
+    align-items: center;
+    border-radius: 25px;
+    
+    
+  }
+  .story-02{
+    background-color: whitesmoke;
+    border: 1px solid white ;
+    padding: 20px;
+    max-width:250px;
+    border-radius: 15px;
+    align-items: center;
+    
+  }
+  .btn-03{
+    height: 50px;
+    width: 135px;
+    background-color: rgba(17, 153, 207, 0.849);
+    text-align: center;
+    border-radius: 20px;
+    color:antiquewhite;
+    border: 1px solid whitesmoke;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -250px;
+  }
+
+  .our-story{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+  }
+  .linear{
+    background-image: linear-gradient(#FFFFFF, #fea1016e);  
+  }
+  .bg{
+   background-image: url("../B11-A2-Kids-School/assets/bg.png");
+  
+  }
+  .view-btn{
+    border: 1px solid white;
+    width: 135px; 
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+  }
+  .kids{
+    display: flex;
+    row-gap: 10px;
+
+  }
+  
+  .kids-education{
+    font-size: 3rem;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+ footer{
+  background-color: #01adfde1;
+  margin-top: 10px;
+ }
+ .div-footer{
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*responsive for small device*/
+  @media screen and (max-width: 576px) { 
+    .navbar > ul > li ,.btn-01, .nav-scl{
+        display: none;
+       
+    }
+    .marquee{
+      display: none;
+    }
+    .navbar{
+       max-width:auto;
+      
+         
+        
+    }
+    .curriculum{
+      font-size: 1.5rem;
+    }
+    
+    img{
+      max-width:80%;
+    }
+    
+    .banner{
+      
+      text-align: center;
+      width:100%;
+      flex-direction: column-reverse;
+      
+      
+    
+    }
+    .empowering{
+      font-size: 1rem;
+    }
+    .school{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+       
+    }
+    .arrow-icon{
+      display: none;
+    }
+    .story-01{
+      display: none;
+      
+    }
+    .story-02{
+      font-size: 0.5rem;
+      width:auto;
+    }
+    .btn-03{
+      font-size: 0.9rem;
+      width: auto;
+      height:auto;
+      
+    }
+   .story-collage{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+    width:100%;
+    align-items: center;
+    gap:10px;
+    
+   }
+   .view-btn{
+      justify-content: center;
+      width: 50%;
+      
+      
+   }
+   .div-footer{
+    display: flex;
+    flex-direction: column;
+    
+   padding: 10px;
+    
+   }
+   .kids-education{
+    font-size: 2rem;
+   }
+   footer{
+    margin-top: 10px;
+    width: 100%;
+   }
+    
+}
